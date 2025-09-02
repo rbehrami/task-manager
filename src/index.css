@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@theme {
+    --color-neutral-gray: #717171;
+    --color-neutral-silver: #F5F7FA;
+    --color-primary:#28CB8B;
+
+    --text-headline-1: 54px;
+
+}
+
+@utility container {
+    @apply max-w-[1200px] mx-auto px-4;
+}
+
+@utility headline-1{
+    @apply text-headline-1 font-semibold leading-[1.18];
+}
